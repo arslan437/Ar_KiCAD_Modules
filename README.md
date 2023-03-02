@@ -1,2 +1,7 @@
 # Ar_KiCAD_Modules
-This repository have the foot print and librares for different modules
+
+### Shcematic Symbols  
+- A9G Gsm GPS module 
+- Encoder 
+- Micro SD card Adapter
+- USB to TTL converter
