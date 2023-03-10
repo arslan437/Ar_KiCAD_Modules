@@ -5,3 +5,6 @@
 - Encoder 
 - Micro SD card Adapter
 - USB to TTL converter
+- LM2596
+- Neoway N11
+- TPS63020
