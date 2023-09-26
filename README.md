@@ -8,6 +8,7 @@
 - LM2596
 - Neoway N11
 - TPS63020
+- [Sim7670c](https://robocraze.com/products/a7670c-gsm-4g-breakout-board-adiy)
 
 ### Kicad Foot Prints 
 - A9G Gsm GPS module
@@ -19,3 +20,4 @@
 - TPS63020DSJR
 - module_LM2596
 - [Bi-Color SMD Side view LED](https://evelta.com/1208-red-green-smd-led-side-view/)
+- [Sim7670c](https://robocraze.com/products/a7670c-gsm-4g-breakout-board-adiy)
