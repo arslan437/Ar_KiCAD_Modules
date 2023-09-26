@@ -18,3 +18,4 @@
 - Push_Button_TS-1088R-02026
 - TPS63020DSJR
 - module_LM2596
+- [Bi-Color SMD Side view LED](https://evelta.com/1208-red-green-smd-led-side-view/)
