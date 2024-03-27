@@ -1,0 +1,161 @@
+(footprint "Capacitive Moisture Sensor 9CM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -16.45 -5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d447686c-6ec7-4798-be2a-21e5d4ecbe1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Capacitive Moisture Sensor 9CM"
+		(at 19.55 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4701860-1cd9-4618-85da-0fa7e10a86f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25ec8570-7b4f-40e1-a82c-636029506891")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d588044e-d69f-42d4-9bfa-06a7980b21c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df2a9660-240e-4204-9d1f-8bc9d1c8ddd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 16.3 7.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de7c210d-fc08-4825-85df-da2994eb0d21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 -76.25)
+		(size 2 1.012)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -10)
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "748ef70c-3898-4988-9cd4-ae6f8f853dc9")
+	)
+	(pad "1" smd custom
+		(at 4 -76.25)
+		(size 2 1.012)
+		(layers "F.Cu")
+		(solder_mask_margin -120)
+		(solder_paste_margin -2)
+		(clearance -120)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 76.25)
+				(end 0 1.25)
+				(width 2)
+			)
+			(gr_rect
+				(start -1 -0.5)
+				(end 1 2)
+				(width 0)
+				(fill yes)
+			)
+			(gr_arc
+				(start 0 76.25)
+				(mid -4 80.25)
+				(end -8 76.25)
+				(width 2)
+			)
+			(gr_line
+				(start -8 76.25)
+				(end -8 1.25)
+				(width 2)
+			)
+			(gr_rect
+				(start -9 -0.5)
+				(end -7 2)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "34e5ecf2-6018-4a1c-a2fc-29e63896f948")
+	)
+	(pad "2" smd custom
+		(at 0 -76)
+		(size 2.286 1.524)
+		(layers "F.Cu")
+		(solder_mask_margin -30)
+		(solder_paste_margin -30)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 76)
+				(end 0 1)
+				(width 3.5)
+			)
+			(gr_rect
+				(start -1.75 -0.75)
+				(end 1.75 1.75)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "401ac32e-a117-4d84-8272-314e3cc14f90")
+	)
+)

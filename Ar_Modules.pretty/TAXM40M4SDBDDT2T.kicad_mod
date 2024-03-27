@@ -1,0 +1,235 @@
+(footprint "TAXM40M4SDBDDT2T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Abracon Miniature Ceramic Smd Crystal ABM10 http://www.abracon.com/Resonators/ABM10.pdf")
+	(tags "SMD SMT crystal Abracon ABM10")
+	(property "Reference" "REF**"
+		(at -1.799999 -3.300001 180)
+		(layer "F.SilkS")
+		(uuid "7aa1a99a-5a53-43f8-b52b-a48f99a562ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TAXM40M4SDBDDT2T"
+		(at 1.6 5.05 180)
+		(layer "F.Fab")
+		(uuid "db9d751c-6bf7-4947-8e0a-7e835ccb23a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.05 0.05 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9b4384d-bac7-4deb-b2fc-3eda0f985d2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 0.05 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a1b38c-77f8-4be6-8bf1-7791aa68ed20")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 0.05 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "334b18af-1b45-402d-b440-acd0bb755452")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.06 -1.06)
+		(end 0.16 -1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f27d8e3a-a675-4da7-aa4b-dcf45a0a2b3e")
+	)
+	(fp_line
+		(start -0.06 1.16)
+		(end 0.16 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "327dab73-77ff-4a3e-8be2-5b5fce3d36b0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 0.75) (xy -1.7 0.65) (xy -1.7 0.85)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f494551d-3cbf-43d0-bfb9-2e934ab4c9ac")
+	)
+	(fp_line
+		(start -1.73 -1.48)
+		(end -1.73 1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ab64a4f-df11-4255-bb38-84849f0b5d46")
+	)
+	(fp_line
+		(start -1.73 -1.48)
+		(end 1.83 -1.48)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a68db418-c924-40b2-aa04-3746914445ac")
+	)
+	(fp_line
+		(start -1.73 1.58)
+		(end 1.83 1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c05145bd-b92c-4ac8-a17c-af5dda8c5c74")
+	)
+	(fp_line
+		(start 1.83 1.58)
+		(end 1.83 -1.48)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d175df2-5715-45b9-8ebc-04aa37dfcacf")
+	)
+	(fp_line
+		(start -1.2 -0.95)
+		(end 1.3 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1413e390-d5c3-4dd9-87de-ab38afbf3bcb")
+	)
+	(fp_line
+		(start -1.2 0.55)
+		(end -1.2 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c342d34-056b-4e6a-a0bd-c16e8fb3dfa9")
+	)
+	(fp_line
+		(start -1.2 0.55)
+		(end -0.7 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b30ec47c-ac89-44bf-befd-49443c444687")
+	)
+	(fp_line
+		(start -0.7 1.05)
+		(end 1.3 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8320787b-a93a-4d3a-97c2-e7a053c25511")
+	)
+	(fp_line
+		(start 1.3 1.05)
+		(end 1.3 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70eb3b4c-eef4-4b96-bc30-a4d1e9a9a897")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 3.8 180)
+		(layer "F.Fab")
+		(uuid "00d913f3-054c-4916-932a-02844985f5c6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.775 0.675 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0bb8492f-fdbe-4b81-beef-f1fb9fd4b4fb")
+	)
+	(pad "2" smd rect
+		(at 0.875 0.675 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bec4a386-fdd8-4bb5-845f-1fd800367804")
+	)
+	(pad "3" smd rect
+		(at 0.875 -0.575 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b778782d-fe0b-451d-9fa5-65b875987742")
+	)
+	(pad "4" smd rect
+		(at -0.775 -0.575 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d440c2d4-a167-48a4-b99c-b8a3534bef4b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

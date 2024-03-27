@@ -1,0 +1,183 @@
+(footprint "Capacitive Moisture Sensor 4CM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14.75 -2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9e82636-9575-49d2-a63e-ec6537f33b72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Capacitive Moisture Sensor 4CM"
+		(at 15.25 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92199f44-f600-4101-91ec-4b18dc948169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1e01c58-ec51-4e49-8b63-3779e59d8d08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd4cb4ed-6fdd-4183-9096-2cb5666133aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33f16c2b-7836-4de6-9daf-f7c6570681c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 0)
+		(end -4 -35)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "664def9f-dba2-4ef4-ac63-679b6d339d91")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -35)
+		(stroke
+			(width 3.5)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "931853a2-aae1-455b-aab2-971feecb9d98")
+	)
+	(fp_line
+		(start 4 0)
+		(end 4 -35)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "3bc83cae-3b18-4b07-8b35-f930e37a089d")
+	)
+	(fp_rect
+		(start -5 -37)
+		(end -3 -34.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "df2ae999-109f-4db7-936a-f87a571646a4")
+	)
+	(fp_rect
+		(start -1.75 -37)
+		(end 1.75 -35)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "a72275f7-9e14-48e9-ac96-dde245af5b31")
+	)
+	(fp_rect
+		(start 3 -37)
+		(end 5 -34.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "a2caca4e-d763-42ae-b500-1ed96d98cb88")
+	)
+	(fp_arc
+		(start 4 0)
+		(mid 0 3.80547)
+		(end -4 0)
+		(stroke
+			(width 2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "34487089-1d6c-4a5e-8c72-cb740e60a021")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15.5 11.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77175f0c-6988-4ab4-88b5-7a102478698f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 -36.25)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -10)
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "3ca48aad-c641-4e4e-96d4-1227e481e6f0")
+	)
+	(pad "1" smd rect
+		(at 4 -36.25)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -10)
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "5c51c8f7-40b0-4f1d-ad5a-d3f036f69dc3")
+	)
+	(pad "2" smd rect
+		(at 0 -36.25)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -10)
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "80750d9f-c186-43a1-a389-50c36500afdb")
+	)
+)
