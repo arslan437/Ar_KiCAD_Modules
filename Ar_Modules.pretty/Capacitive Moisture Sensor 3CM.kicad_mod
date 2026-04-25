@@ -1,0 +1,147 @@
+(footprint "Capacitive Moisture Sensor 3CM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14.75 -2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9e82636-9575-49d2-a63e-ec6537f33b72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Capacitive Moisture Sensor 3CM"
+		(at 15.25 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92199f44-f600-4101-91ec-4b18dc948169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Capacitive Moisture Sensor 3CM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1e01c58-ec51-4e49-8b63-3779e59d8d08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd4cb4ed-6fdd-4183-9096-2cb5666133aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33f16c2b-7836-4de6-9daf-f7c6570681c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 15.5 11.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "77175f0c-6988-4ab4-88b5-7a102478698f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 4 -25.9375)
+		(size 1.95 1.475)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 25.9375)
+				(end 0 0.9375)
+				(width 2)
+			)
+			(gr_rect
+				(start -1 -0.8125)
+				(end 1 1.4375)
+				(width 0)
+				(fill yes)
+			)
+			(gr_arc
+				(start 0 25.9375)
+				(mid -4 29.74297)
+				(end -8 25.9375)
+				(width 2)
+			)
+			(gr_line
+				(start -8 25.9375)
+				(end -8 0.9375)
+				(width 2)
+			)
+			(gr_rect
+				(start -9 -0.8375)
+				(end -7 1.6625)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5c51c8f7-40b0-4f1d-ad5a-d3f036f69dc3")
+	)
+	(pad "2" smd custom
+		(at 0 -26.0125)
+		(size 2 1.425)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 26.0125)
+				(end 0 1.0125)
+				(width 3.5)
+			)
+			(gr_rect
+				(start -1.75 -0.7625)
+				(end 1.75 1.2375)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "80750d9f-c186-43a1-a389-50c36500afdb")
+	)
+)
